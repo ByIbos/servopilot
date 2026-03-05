@@ -12,7 +12,8 @@ Quick Start:
 """
 
 from servopilot.pid_controller import PIDController, DualAxisPID
+from servopilot.feedforward import FeedforwardPID, DualAxisFeedforwardPID
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 __author__ = "ByIbos"
-__all__ = ["PIDController", "DualAxisPID"]
+__all__ = ["PIDController", "DualAxisPID", "FeedforwardPID", "DualAxisFeedforwardPID"]
